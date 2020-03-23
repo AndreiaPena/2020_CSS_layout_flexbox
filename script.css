@@ -4,3 +4,59 @@
     box-sizing: border-box;
 }
 
+body {
+    font-size: 14px;
+}
+h1 {
+    font-size: 20px;
+    padding: 20px 0;
+}
+h2 {
+    font-size: 16px;
+}
+header{
+    background-color: #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.content {
+    background-color: #fff;
+    width: 50%;
+    height: auto;
+    padding: 10px  10px;
+    order: 1;
+}
+
+.navigation {
+    background-color: #7CB71C;
+    width: 25%;
+    padding: 10px 10px;
+    order: 2;
+}
+.navigation ul {
+    list-style-type : none;
+}
+
+.stuff  {
+    background-color: #147FA9;
+    width: 25%;
+    padding: 10px 10px;
+}
+.stuff ul {
+    padding: 0 10px;
+}
+
+#wrapper {
+    display: flex;
+}
+
+footer {
+    height: 10vh; 
+    background-color: #42444E;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
