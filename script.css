@@ -32,14 +32,14 @@ header{
     width: 50%;
     height: auto;
     padding: 10px  10px;
-    order: 1;
+    order: 2;
 }
 
 .navigation {
     background-color: #7CB71C;
     width: 25%;
     padding: 10px 10px;
-    order: 2;
+    order: 1;
     height: 65vh;
 }
 .navigation ul {
