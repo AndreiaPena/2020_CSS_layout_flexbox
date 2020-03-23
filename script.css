@@ -6,6 +6,8 @@
 
 body {
     font-size: 14px;
+    width: 50%;
+    margin: 0 auto;
 }
 h1 {
     font-size: 20px;
@@ -27,15 +29,14 @@ header{
 
 .content {
     background-color: #fff;
-    width: 50%;
+    width: 100%;
     height: auto;
     padding: 10px  10px;
-    order: 1;
 }
 
 .navigation {
     background-color: #7CB71C;
-    width: 25%;
+    width: 50%;
     padding: 10px 10px;
     order: 2;
     height: 65vh;
@@ -49,7 +50,7 @@ header{
 
 .stuff  {
     background-color: #147FA9;
-    width: 25%;
+    width: 50%;
     padding: 10px 10px;
     height: 35vh;
 }
@@ -60,6 +61,7 @@ header{
 #wrapper {
     display: flex;
     height: auto;
+    flex-wrap: wrap;
 }
 
 footer {
