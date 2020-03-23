@@ -14,6 +14,9 @@ h1 {
 h2 {
     font-size: 16px;
 }
+p{
+    line-height: 1.8;
+}
 header{
     background-color: #E0E0E0;
     display: flex;
@@ -35,6 +38,7 @@ header{
     width: 25%;
     padding: 10px 10px;
     order: 2;
+    height: 55vh;
 }
 .navigation ul {
     list-style-type : none;
@@ -44,6 +48,7 @@ header{
     background-color: #147FA9;
     width: 25%;
     padding: 10px 10px;
+    height: 35vh;
 }
 .stuff ul {
     padding: 0 10px;
@@ -51,6 +56,7 @@ header{
 
 #wrapper {
     display: flex;
+    height: 80vh ;
 }
 
 footer {
